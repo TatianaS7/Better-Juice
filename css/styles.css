@@ -1,0 +1,191 @@
+/*NAVIGATION - ALL PAGES*/
+
+.topnav {
+    position: relative;
+    height: 95px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+
+}
+.topnav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.topnav a.split {
+    float: right;
+}
+/*END OF NAVIGATION*/
+
+/*LOGO - ALL PAGES*/
+.mainLogo {
+  margin-top: 20px; 
+  margin-left: 20px;  
+  margin-bottom: 20px;
+   display: flex;
+    height: 100px;
+    width: 150px;
+    float: left;
+}
+/*END OF LOGO*/
+
+/*SHOP PAGE*/
+header h1 {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+header h2 {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+}
+    
+.content {
+    margin: 50px;
+}
+.wrapper {
+  display: inline;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+    height: 420px;
+    width: 654px;
+    border-radius: 7px 7px 7px 7px;
+    /* VIA CSS MATIC https://goo.gl/cIbnS */
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  }
+  .cucumberCelery {
+    float: left;
+  }
+  .spinachGinger {
+    float: right;
+  }
+  .strawberryKiwi {
+    float: left;
+  }
+  .mangoGinger {
+    float: right;
+  }
+  .product-img {
+    float: left;
+    height: 420px;
+    width: 327px;
+  }
+  
+  .product-img img {
+    border-radius: 7px 0 0 7px;
+  }
+  
+  .product-info {
+    float:right;
+    height: 420px;
+    width: 327px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #ffffff;
+  }
+  
+  .product-text {
+    height: 180px;
+    width: 327px;
+  }
+  
+ /* .product-text h2 {
+    margin: 0 0 0 38px;
+    padding-top: 52px;
+    font-size: 34px;
+    color: #474747; */
+  
+  .product-text h2,
+  .product-price-btn p {
+    font-family: 'Bentham', serif;
+  }
+  
+  .product-text h2 {
+    margin: 47px 38px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 0.2em;
+  }
+  
+  .product-text p {
+    height: 125px;
+    margin-left: 38px;
+    margin-right: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow:visible;
+  }
+  
+  .product-price-btn {
+    height: 103px;
+    width: 327px;
+  }
+  
+  .product-price-btn button {
+    height: 50px;
+    width: 150px;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: coral;
+    cursor: pointer;
+  }
+  
+  .product-price-btn button:hover {
+    background-color: #79b0a1;
+  }
+  .product-size button {
+    height: 40px;
+    width: 90%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: lightgrey;
+  }
+/*END OF SHOP PAGE*/
+
+/*LOGIN FORM*/ 
+
+  form {
+    margin-left: 100px;
+  }
+  .login {
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    font-weight: bolder;
+  }
+/*END OF LOGIN FORM*/
