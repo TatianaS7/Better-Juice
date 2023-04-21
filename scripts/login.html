@@ -23,22 +23,29 @@
         <a href="/better-juice/scripts/login.html" class="split"> <img src="/better-juice/Images/profile.png" alt="Profile" > </a>
     </div>
 </header>
-    <br><br><br><br><br>
         <h1 class="login">Welcome!</h1>
-        <form>
-            <div class="mb-3">
-                <label for="emailInput">Email Address</label>
-                <input type="email" id="emailInput" aria-describedby="emailHelp">
+        <form class="existingAcc">
+                <div class="form-row">
+                    <div class="form-floating">
+                      <input type="email" class="form-control" id="floatingEmail" placeholder="Email">
+                      <label for="floatingEmail">Email</label>
+                  </div>
+                    <br>
+                    <div class="form-floating">
+                      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                      <label for="floatingPassword">Password</label>
+                    </div>
+                    <br>
+                  <div class="mb-3">
+                <input type="checkbox" class="form-check-input" id="rememberMeCheck">
+                <label for="rememberMeCheck" class="form-check-label">Remember Me</label>
             </div>
-            <div class="mb-3">
-                <label for="passwordInput">Password</label>
-                <input type="password" id="passwordInput">
+            <div class="existing">
+                <button type="submit" class="btn btn-dark">Log In</button>
             </div>
-            <div class="mb-3">
-                <input type="checkbox" id="rememberMeCheck">
-                <label for="rememberMeCheck">Remember Me</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Log In</button>
         </form>
+        <div class="new">
+            <a class="btn btn-outline-dark" href="/better-juice/scripts/registration.html" role="button">Create Account</a>
+        </div>
 </body>
 </html>

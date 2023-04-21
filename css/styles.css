@@ -100,11 +100,6 @@ footer p {
 /*END OF FOOTER*/
 
 /*HOME PAGE*/
-/*body .index {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}*/
 .menu {
   text-align: center;
 }
@@ -120,6 +115,8 @@ footer p {
 color: coral;
 font-weight: bolder;
 text-decoration: none;
+margin-bottom: 20px;
+
 }
 
 .menu .menu-img {
@@ -128,15 +125,22 @@ text-decoration: none;
   align-items: center;
   margin-left: 40px;
   margin-right: 30px;
+  margin-bottom: 20px;
+
 }
 .menu-img a {
   height: 10px;
+  margin-bottom: 20px;
+}
+.menu-img a:hover {
+  height: 10px;
+  opacity: 50%;
 }
 .mission {
-  margin-top:30px;
+  margin-top:20px;
+  padding-bottom: 40px;
+  padding-top: 15px;
   text-align: center;
-  background-color: #f5f5f5;
-  padding: 20px;
 }
 .mission h1 {
   margin: 30px;
@@ -144,15 +148,66 @@ text-decoration: none;
     font-weight: bolder;
 }
 .mission p {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
   text-align: justify;
   font-family: 'Raleway', sans-serif;
-  font-weight: 300px;
+  font-weight: 400px;
+  font-size: 18px;
 }
-.newStuff, li {
-  margin-top:20px;
+.newStuff .comingSoon {
+  max-height: 60px;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+.announcement {
+  font-family: 'Raleway', sans-serif;
+  max-width: 25%;
+  line-height: 35px;
+  font-weight: 450;
   text-align: center;
+  padding: 25px;
+  font-size: 17px;
+}
+.fruitJuice {
+  background-color: white;
+  border-style: solid;
+  border-color: coral;
+}
+.fruitJuice img {
+  max-height: 400px;
+}
+.newMenu {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 60px 60px 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.newMenu li {
+  list-style: none;
+}
+.newMenu h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-top: 12px;
+}
+.wellnessShots {
+  border-style: solid;
+  border-color: coral;
+}
+.wellnessShots img {
+  max-height: 400px;
+}
+.flavors li {
+  padding-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  list-style: disc;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 12px;
 }
 /*END OF HOME PAGE*/
 
@@ -165,7 +220,38 @@ header h1 {
 header h2 {
     font-family: 'Raleway', sans-serif;
 }
-    
+ /*.content {
+  margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+ }   
+ .content li {
+  list-style: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  max-width: 375px;
+ }
+ .content h3 {
+padding-top: 12px;
+padding-left: 12px;
+ } 
+ .content p {
+  padding-left: 12px;
+ }
+ .greenJuice, .lemonade {
+  background-color: white;
+  border-style: solid;
+  border-color: #f5f5f5;
+}
+.greenJuice img, .lemonade img {
+  max-width: 375px;
+}
+.subtitle {
+  margin-left: 30px;
+  margin-top: 30px;
+}*/
+
 .content {
     margin: 50px;
 }
@@ -177,27 +263,32 @@ header h2 {
     width: 654px;
   }
   .greenJuice .wrapper {
-    display: inline-flexbox;
     justify-content: space-evenly;
   }
+.content h2 {
+  font-family: 'Raleway', sans-serif;
+}
   .cucumberCelery {
     float: left;
+    margin: 20px;
     border-radius: 7px 7px 7px 7px;
-    /* VIA CSS MATIC https://goo.gl/cIbnS */
+    /* VIA CSS MATIC https://goo.gl/cIbnS*/
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   }
   .spinachGinger {
     float: right;
+    margin:20px;
     border-radius: 7px 7px 7px 7px;
-    /* VIA CSS MATIC https://goo.gl/cIbnS */
+    /* VIA CSS MATIC https://goo.gl/cIbnS*/
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   }
   .strawberryKiwi {
     float: left;
+    margin: 30px;
     border-radius: 7px 7px 7px 7px;
     /* VIA CSS MATIC https://goo.gl/cIbnS */
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -206,6 +297,7 @@ header h2 {
   }
   .mangoGinger {
     float: right;
+    margin: 20px;
     border-radius: 7px 7px 7px 7px;
     /* VIA CSS MATIC https://goo.gl/cIbnS */
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -214,6 +306,7 @@ header h2 {
   }
   .caribbeanPassion {
     float: left;
+    margin: 20px;
     border-radius: 7px 7px 7px 7px;
     /* VIA CSS MATIC https://goo.gl/cIbnS */
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -223,10 +316,11 @@ header h2 {
   .pineappleTwist {
     float: right;
     border-radius: 7px 7px 7px 7px;
-    /* VIA CSS MATIC https://goo.gl/cIbnS */
+    /* VIA CSS MATIC https://goo.gl/cIbnS*/ 
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
   }
   .product-img {
     float: left;
@@ -250,12 +344,6 @@ header h2 {
     height: 180px;
     width: 327px;
   }
-  
- /* .product-text h2 {
-    margin: 0 0 0 38px;
-    padding-top: 52px;
-    font-size: 34px;
-    color: #474747; */
   
   .product-text h2,
   .product-price-btn p {
@@ -284,7 +372,7 @@ header h2 {
     overflow:visible;
     text-transform: capitalize;
   }
-  
+  */
   .product-price-btn {
     height: 103px;
     width: 327px;
@@ -346,7 +434,7 @@ header h2 {
 
 /*LOGIN FORM*/ 
 
-  form {
+   .existingAcc, .newAccount {
     margin-left: 500px;
     margin-right:500px;
     resize: none;
@@ -374,7 +462,7 @@ header h2 {
 .new {
   text-align: center;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 300;
   margin-top: 30px;
   margin-right: 100px;
   margin-left: 100px;
@@ -395,13 +483,50 @@ header h2 {
 form .newAccount {
 float: left;
 }
+.radio {
+  text-align: left;
+}
 /*END OF REGISTRATION*/
 
 /*CART PAGE*/
-.cartLayout {
+.checkout-btn {
+  height: 103px;
+  width: 327px;
+}
+
+.checkout-btn button {
+  height: 50px;
+  width: 300px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  margin-top: 15px;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: coral;
+  cursor: pointer;
+}
+
+.product-price-btn button:hover {
+  background-color: black;
+}
+.cart {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+.container {
+    font-family: 'Raleway', sans-serif;
+
+}
+/*.cartLayout {
   margin: 50px;
-background-color: lightgray;  
-height: 420px;
+height: 100%;
 padding-top: 5px;
 }
 .cartItem {
@@ -462,10 +587,43 @@ justify-content: left;
   color: white;
   background-color: coral;
 }
-.cartButtonLabel {
-  font-weight: bold;
+.checkout h3 {
+  display: flex;
+  justify-content: right;
+  margin-right: 30px;
+  font-family: 'Raleway', sans-serif;
 }
-.checkout {
-  background-color: white;
+.checkout p {
+  font-family: 'Raleway', sans-serif;
+display: flex;
+justify-content: right;
+margin-right: 30px;
 }
+.product-price-btn {
+  height: 103px;
+  width: 327px;
+}
+
+.checkout-btn button {
+  height: 50px;
+  width: 260px;
+  float: right;
+  box-sizing: border-box;
+  margin: 0px 30px 50px 0px;
+  border: transparent;
+  border-radius: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: coral;
+  cursor: pointer;
+}
+
+.checkout-btn button:hover {
+  background-color: black;
+}
+*
 /*END OF CART PAGE*/
