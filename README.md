@@ -2,18 +2,18 @@
 
 
 ### This is the Home Page
-![HomePage](better-juice/images/home1.jpg)
-![HomePage](better-juice/images/home2.jpg)
+![HomePage](/Images/home1.JPG)
+![HomePage](/Images/home2.JPG)
 
 ### This is the Shop Page
-![ShopPage](better-juice/images/shop1.jpg)
-![ShopPage](better-juice/images/shop2.jpg)
+![ShopPage](/Images/shop1.JPG)
+![ShopPage](/Images/shop2.JPG)
 
 ### This is the Login Page
-![LoginPage](better-juice/images/loginPage.jpg)
+![LoginPage](/Images/loginPage.JPG)
 
 ### This is the Registration Page
-![RegistrationPage](better-juice/images/registrationPage.jpg) 
+![RegistrationPage](/Images/registrationPage.JPG) 
 
 ### This is the Checkout Page
-![CheckoutPage](better-juice/images/checkout.jpg)
+![CheckoutPage](/Images/checkout.JPG)
